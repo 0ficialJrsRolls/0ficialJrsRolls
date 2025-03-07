@@ -1,0 +1,31 @@
+body {
+    margin: 10;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+    background: #f12711;  
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+    background: linear-gradient(to right, #f5af19, #f12711); 
+}
+
+img {
+    width: 370px; 
+    height: auto;
+
+}
+
+.derecha {
+    align-self: flex-end; 
+    
+}
+
+.izquierda {
+    align-self: flex-start; 
+   
+}
+
+.centro {
+    align-self: center; 
+    
+}
